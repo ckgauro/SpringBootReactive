@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.learnreactspring.fluxandmonoplayground.FluxAndMonoFilterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-19T00:57:24" hostname="Chandras-MacBook-Pro.local" time="0.236">
+  <properties/>
+  <testcase name="filterTest()" classname="com.learnreactspring.fluxandmonoplayground.FluxAndMonoFilterTest" time="0.236"/>
+  <system-out><![CDATA[19:57:24.857 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+19:57:24.888 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onSubscribe([Fuseable] FluxFilterFuseable.FilterFuseableSubscriber)
+19:57:24.893 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | request(unbounded)
+19:57:24.893 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onNext(adam)
+19:57:24.894 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onNext(anna)
+19:57:24.894 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onComplete()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
