@@ -20,5 +20,15 @@ public class FluxAndMonoFilterTest {
                 .expectNext("adam","anna")
                 .verifyComplete();
     }
+    @Test
+    public void filterTestLength(){
+        Flux<String> namesFlux=Flux.fromIterable(names)
+                .filter(s->s.length()>4)
+                .log();
+
+        StepVerifier.create((namesFlux))
+                .expectNext("jenny")
+                .verifyComplete();
+    }
 
 }
