@@ -16,7 +16,6 @@ public class FluxAndMonoFilterTest {
         Flux<String> namesFlux=Flux.fromIterable(names)
                 .filter(s->s.startsWith("a"))
                 .log();
-
         StepVerifier.create(namesFlux)
                 .expectNext("adam","anna")
                 .verifyComplete();
