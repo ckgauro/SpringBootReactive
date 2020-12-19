@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -48,10 +49,13 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+=======
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -241,4 +245,6 @@
     <MESSAGE value="Spring Reactive Lect 17" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring Reactive Lect 17" />
   </component>
+=======
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
 </project>

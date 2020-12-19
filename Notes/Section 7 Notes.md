@@ -1,6 +1,10 @@
 # Section 7: Reactive Programming (Flux and Mono) - Hands on + JUNIT Testing  ---Not Started 
 ---------
+<<<<<<< HEAD
 Lect 13  --Done
+=======
+Lect 13
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
 ```
 in src\test create Class
     FluxAndmonoTest
@@ -12,7 +16,11 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
         comment   /*.concatWith(Flux.error(new RuntimeException("Exception Occurred")))*/
 ```
 ---------
+<<<<<<< HEAD
 Lect 14  --Done
+=======
+Lect 14
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoTest.java
     fluxTestElements_WithoutError()
@@ -29,14 +37,22 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
     
 ```
 ---------
+<<<<<<< HEAD
 Lect 15 --Done
+=======
+Lect 15
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoTest.java
     monoTest()
     monoTest_Error()
 ```
 ---------
+<<<<<<< HEAD
 Lect 16 --Done
+=======
+Lect 16
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoFactoryTest.java
     fluxUsingIterable()
@@ -48,7 +64,11 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
     
 ```
 ---------
+<<<<<<< HEAD
 Lect 17 --Ongoing
+=======
+Lect 17
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoFilterTest.java
     try log() before filter 

@@ -19,7 +19,11 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
 	//implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+=======
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+>>>>>>> 151150672ebc7eed0e55e5b4c9aa8fd0a6578f52
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
