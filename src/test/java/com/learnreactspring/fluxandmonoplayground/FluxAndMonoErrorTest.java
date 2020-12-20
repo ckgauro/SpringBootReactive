@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;
 
+import java.time.Duration;
+
 /**
  * @author Chandra
  */
@@ -45,10 +47,39 @@ public class FluxAndMonoErrorTest {
     public void fluxErrorHandling_OnErrorMap() {
         Flux<String> stringFlux = Flux.just("A", "B", "C")
                 .concatWith(Flux.error(new RuntimeException("Exception Occurred")))
-                .concatWith(Flux.just("D"));
-               // .onErrorMap(e->new C)
+                .concatWith(Flux.just("D"))
+                .onErrorMap(e->new CustomException(e))
+                .retry(2)
+               // .retryBackoff(2, Duration.ofSeconds(5))
+                ;
+
+        StepVerifier.create(stringFlux.log())
+                .expectSubscription()
+                .expectNext("A","B","C")
+                .expectNext("A","B","C")
+                .expectNext("A","B","C")
+                .expectError(CustomException.class)
+                .verify();
 
     }
+//    @Test
+//    public void fluxErrorHandling_OnErrorMap_withRetryBackoff() {
+//        Flux<String> stringFlux = Flux.just("A", "B", "C")
+//                .concatWith(Flux.error(new RuntimeException("Exception Occurred")))
+//                .concatWith(Flux.just("D"))
+//                .onErrorMap(e->new CustomException(e))
+//                .retryBackoff(2, Duration.ofSeconds(2))
+//                ;
+//        StepVerifier.create(stringFlux.log())
+//                .expectSubscription()
+//                .expectNext("A", "B", "C")
+//                .expectNext("A", "B", "C")
+//                .expectNext("A", "B", "C")
+//                .expectError(IllegalStateException.class)
+//                .verify();
+//
+//
+//    }
 
 
 }
