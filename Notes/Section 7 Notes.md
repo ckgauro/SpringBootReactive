@@ -1,4 +1,4 @@
-# Section 7: Reactive Programming (Flux and Mono) - Hands on + JUNIT Testing  ---Ongoing
+# Section 7: Reactive Programming (Flux and Mono) - Hands on + JUNIT Testing  ---Done
 ---------
 
 Lect 13  --Done
@@ -74,7 +74,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
     
 ```
 ---------
-Lect 21 [revise]  --Ongoing
+Lect 21 [revise]  --Done
 ``` 
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoErrorTest.java
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoErrorTest.java
