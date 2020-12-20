@@ -61,12 +61,12 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
     try log() before filter 
 ```
 ---------
-Lect 18, 19
+Lect 18, 19  --Done
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoTransformTest.java
 ```
 ---------
-Lect 20
+Lect 20  --Done
 ``` 
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoCombineTest.java
     combineUsingMerge()
@@ -74,10 +74,11 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
     
 ```
 ---------
-Lect 21 [revise]
+Lect 21 [revise]  --Ongoing
 ``` 
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoErrorTest.java
-
+https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/FluxAndMonoErrorTest.java
+https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/fluxandmonoplayground/CustomException.java
 
         
     

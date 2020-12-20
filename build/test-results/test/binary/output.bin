@@ -1,6 +1,8 @@
-d20:27:51.742 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
-†20:27:51.775 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onSubscribe([Fuseable] FluxFilterFuseable.FilterFuseableSubscriber)
-U20:27:51.782 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | request(unbounded)
-O20:27:51.782 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onNext(adam)
-O20:27:51.783 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onNext(anna)
-O20:27:51.784 [Test worker] INFO reactor.Flux.FilterFuseable.1 - | onComplete()
+d19:29:11.348 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+o19:29:11.373 [Test worker] INFO reactor.Flux.OnErrorResume.1 - onSubscribe(FluxOnErrorResume.ResumeSubscriber)
+R19:29:11.377 [Test worker] INFO reactor.Flux.OnErrorResume.1 - request(unbounded)
+I19:29:11.378 [Test worker] INFO reactor.Flux.OnErrorResume.1 - onNext(A)
+I19:29:11.378 [Test worker] INFO reactor.Flux.OnErrorResume.1 - onNext(B)
+I19:29:11.378 [Test worker] INFO reactor.Flux.OnErrorResume.1 - onNext(C)
+O19:29:11.379 [Test worker] INFO reactor.Flux.OnErrorResume.1 - onNext(Default)
+L19:29:11.380 [Test worker] INFO reactor.Flux.OnErrorResume.1 - onComplete()

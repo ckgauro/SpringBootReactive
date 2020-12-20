@@ -1,6 +1,12 @@
 com/learnreactspring/fluxandmonoplayground/FluxAndMonoFilterTest.java
  com.learnreactspring.fluxandmonoplayground.FluxAndMonoFilterTest
+com/learnreactspring/fluxandmonoplayground/FluxAndMonoTransformTest.java
+ com.learnreactspring.fluxandmonoplayground.FluxAndMonoTransformTest
+com/learnreactspring/fluxandmonoplayground/FluxAndMonoCombineTest.java
+ com.learnreactspring.fluxandmonoplayground.FluxAndMonoCombineTest
 com/learnreactspring/LearnReactSpringApplicationTests.java
  com.learnreactspring.LearnReactSpringApplicationTests
 com/learnreactspring/fluxandmonoplayground/FluxAndMonoTest.java
  com.learnreactspring.fluxandmonoplayground.FluxAndMonoTest
+com/learnreactspring/fluxandmonoplayground/FluxAndMonoErrorTest.java
+ com.learnreactspring.fluxandmonoplayground.FluxAndMonoErrorTest
