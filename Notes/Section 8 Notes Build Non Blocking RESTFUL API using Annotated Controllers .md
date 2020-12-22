@@ -1,7 +1,7 @@
 # Section 8: Bulding the Non Non blocking RESTFUL API using Annoted Controllers  ---Ongoing
 ---------
 
-### Lect 28
+### Lect 28  --Done
 
 ```
 https://spring.io/
@@ -10,7 +10,7 @@ https://spring.io/reactive
 ```
 
 ----------------
-### Lect 29
+### Lect 29  --Done
 
 ```
 uncomment in build.gradle
