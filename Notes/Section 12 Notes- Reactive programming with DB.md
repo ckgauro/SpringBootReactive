@@ -136,7 +136,7 @@ to do: Delete direct by it
 
 -----------------
 
-#### Lect 50 Build Artifact
+#### Lect 50 Build Artifact 
 
 ```
 

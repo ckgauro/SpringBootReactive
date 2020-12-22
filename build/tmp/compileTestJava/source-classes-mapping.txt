@@ -25,3 +25,5 @@ com/learnreactspring/fluxandmonoplayground/FluxAndMonoWithTimeTest.java
  com.learnreactspring.fluxandmonoplayground.FluxAndMonoWithTimeTest
 com/learnreactspring/fluxandmonoplayground/VirtualTimeTest.java
  com.learnreactspring.fluxandmonoplayground.VirtualTimeTest
+com/learnreactspring/controller/FluxAndMonoControllerTest.java
+ com.learnreactspring.controller.FluxAndMonoControllerTest
