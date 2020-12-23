@@ -106,6 +106,24 @@ class FluxAndMonoControllerTest {
     }
 
     @Test
+    public void fluxstreaminfinte() {
+        Flux<Long> longStreamFlux = webTestClient.get().uri("/fluxstreaminfinte")
+                .accept(MediaType.APPLICATION_STREAM_JSON)
+                .exchange()
+                .expectStatus().isOk()
+                .returnResult(Long.class)
+                .getResponseBody();
+
+        StepVerifier.create(longStreamFlux)
+                .expectNext(0l)
+                .expectNext(1l)
+                .expectNext(2l)
+                .thenCancel()
+                .verify();
+
+    }
+
+    @Test
     public void mono() {
         Integer expectedValue = new Integer(1);
 

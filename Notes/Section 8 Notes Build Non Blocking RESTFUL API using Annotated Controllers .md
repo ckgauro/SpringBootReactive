@@ -1,4 +1,4 @@
-# Section 8: Bulding the Non Non blocking RESTFUL API using Annoted Controllers  ---Ongoing
+# Section 8: Bulding the Non Non blocking RESTFUL API using Annoted Controllers  ---Done
 ---------
 
 ### Lect 28  --Done
@@ -45,7 +45,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 
 ----------------
-### Lect 31 Test Case  --Ongoing
+### Lect 31 Test Case  --Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/controller/FluxAndMonoController.java
@@ -63,7 +63,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 
 ----------------
-### Lect 32 Test Case
+### Lect 32 Test Case --Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/controller/FluxAndMonoController.java
