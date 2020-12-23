@@ -67,7 +67,7 @@ class FluxAndMonoControllerTest {
     public void flux_approach3() {
         List<Integer> expectedIntegerList = Arrays.asList(1, 2, 3, 4);
 
-        EntityExchangeResult<List<Integer>> entityExchangeResult=  webTestClient.get().uri("/flux")
+        EntityExchangeResult<List<Integer>> entityExchangeResult = webTestClient.get().uri("/flux")
                 .accept(MediaType.APPLICATION_JSON)
                 .exchange()
                 .expectStatus().isOk()
@@ -76,8 +76,8 @@ class FluxAndMonoControllerTest {
     }
 
     @Test
-    public void flux_approach4(){
-        List<Integer> expectedIntegerList = Arrays.asList(1,2,3,4);
+    public void flux_approach4() {
+        List<Integer> expectedIntegerList = Arrays.asList(1, 2, 3, 4);
         webTestClient.get().uri("/flux")
                 .accept(MediaType.APPLICATION_JSON)
                 .exchange()
@@ -86,14 +86,51 @@ class FluxAndMonoControllerTest {
                 .consumeWith(response -> assertEquals(expectedIntegerList, response.getResponseBody()));
 
     }
+
     @Test
-    public void fluxStream(){
-//        webTestClient.get().uri("/fluxstream")
-//                .accept(MediaType.APPLICATION_JSON)
-//
+    public void fluxStream() {
+        Flux<Long> longStreamFlux = webTestClient.get().uri("/fluxstream")
+                .accept(MediaType.APPLICATION_STREAM_JSON)
+                .exchange()
+                .expectStatus().isOk()
+                .returnResult(Long.class)
+                .getResponseBody();
+
+        StepVerifier.create(longStreamFlux)
+                .expectNext(1l)
+                .expectNext(2l)
+                .expectNext(3l)
+                .thenCancel()
+                .verify();
 
     }
 
+    @Test
+    public void mono() {
+        Integer expectedValue = new Integer(1);
+
+        webTestClient.get().uri("/mono")
+                .accept(MediaType.APPLICATION_JSON)
+                .exchange()
+                .expectStatus().isOk()
+                .expectBody(Integer.class)
+                .consumeWith((response) -> {
+                            System.out.println("==*******Start==");
+                            System.out.println(response);
+                            System.out.println("==*******response==");
+                            System.out.println(expectedValue);
+                            System.out.println("==*******getResponseBody==");
+                            System.out.println(response.getResponseBody());
+                            System.out.println("==*******values==");
+                            assertEquals(expectedValue, response.getResponseBody());
+                            System.out.println("==*******Ends==");
+                        }
+
+                )
+        ;
+
+
+    }
 
 
 }
