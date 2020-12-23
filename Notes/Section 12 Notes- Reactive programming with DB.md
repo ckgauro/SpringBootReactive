@@ -1,4 +1,4 @@
-# Section 12: Reactive programming with DB  ---Not Started 
+# Section 12: Reactive programming with DB  ---Ongoing
 
 $ mongod --dbpath "software/mongodbData/data/db"
 
@@ -16,7 +16,7 @@ Now Run the application
 
 -----------------
 
-#### Lect 41 Spring Profiles
+#### Lect 41 Spring Profiles  --Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/resources/application.yml
@@ -30,14 +30,14 @@ $./gradlew build -x test
 
 Jar is located inside build>libs folder
 
-$java -jar -Dspring.prfiles.active=prod  build/libs/learn-reactivespring-0.0.1-SNAPSHOT.jar
-$java -jar -Dspring.prfiles.active=dev  build/libs/learn-reactivespring-0.0.1-SNAPSHOT.jar
+$java -jar -Dspring.profiles.active=prod  build/libs/learn-reactivespring-0.0.1-SNAPSHOT.jar
+$java -jar -Dspring.profiles.active=dev  build/libs/learn-reactivespring-0.0.1-SNAPSHOT.jar
 
 ```
 
 -----------------
 
-#### Lect 42 Build the "Item" Document
+#### Lect 42 Build the "Item" Document  -- Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/document/Item.java
@@ -46,7 +46,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 43 Build the Reactive layer "Item" Document
+#### Lect 43 Build the Reactive layer "Item" Document  -- Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/repository/ItemReactiveRepository.java
@@ -54,7 +54,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 44 Build JUNIT Reactive layer "Item" Document
+#### Lect 44 Build JUNIT Reactive layer "Item" Document  --Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/repository/ItemReactiveRepositorytest.java
@@ -72,7 +72,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 45 Build JUNIT Reactive layer "Item" Document
+#### Lect 45 Build JUNIT Reactive layer "Item" Document ---Ongoing
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/repository/ItemReactiveRepositorytest.java
