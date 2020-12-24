@@ -1,5 +1,4 @@
-# Section 13: Reactive programming API EndPoint  ---Ongoing
-
+# Section 13: Reactive programming API EndPoint  ---Done
 brew services restart mongodb
 
 #### Lect 51  --Done
@@ -24,7 +23,7 @@ localhost:8080/v1/items
 ```
 -----------
 
-#### Lect 53 Setup Junit for the application  --Ongoing
+#### Lect 53 Setup Junit for the application  --Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/controller/v1/ItemControllerTest.java
@@ -39,7 +38,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 -----------
 
-#### Lect 54 Setup Junit for the application
+#### Lect 54 Setup Junit for the application  --Done
 
 ```    
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/controller/v1/ItemControllerTest.java
@@ -50,7 +49,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 -----------
 
-#### Lect 55 Setup Junit for the application
+#### Lect 55 Setup Junit for the application  --Done
 
 ```    
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/controller/v1/ItemController.java
@@ -64,7 +63,8 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 -----------
 
-#### Lect 56 Setup Junit for the application
+#### Lect 56 Setup Junit for the application --Done --Done
+
 
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/controller/v1/ItemController.java
@@ -79,7 +79,8 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 -----------
 
-#### Lect 57 Setup Junit for the application
+#### Lect 57 Setup Junit for the application --Done
+
 
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/controller/v1/ItemController.java
@@ -94,7 +95,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 -----------
 
-#### Lect 58 Setup Junit for the application
+#### Lect 58 Setup Junit for the application  --Done
 
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/controller/v1/ItemController.java
