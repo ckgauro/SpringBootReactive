@@ -1,6 +1,6 @@
 # Section 14: Reactive programming API Using Function and Router  --- Ongoing
 
-#### Lect 60 & 61  --Ongoing
+#### Lect 60 & 61  --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/constants/ItemConstants.java
 
@@ -15,7 +15,7 @@ localhost:8080/v1/fun/items
 
 ```
 
-#### Lect 62
+#### Lect 62   --Ongoing
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/handler/ItemHandlerTest.java
       public void getAllItems(){

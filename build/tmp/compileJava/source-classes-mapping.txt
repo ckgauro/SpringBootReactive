@@ -17,3 +17,7 @@ constants/ItemConstants.java
  constants.ItemConstants
 com/learnreactspring/controller/ItemController.java
  com.learnreactspring.controller.ItemController
+com/learnreactspring/router/ItemsRouter.java
+ com.learnreactspring.router.ItemsRouter
+com/learnreactspring/handler/ItemsHandler.java
+ com.learnreactspring.handler.ItemsHandler
