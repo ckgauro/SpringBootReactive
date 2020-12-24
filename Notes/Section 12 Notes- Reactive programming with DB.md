@@ -1,4 +1,4 @@
-# Section 12: Reactive programming with DB  ---Ongoing
+# Section 12: Reactive programming with DB  ---Done
 
 $ mongod --dbpath "software/mongodbData/data/db"
 
@@ -72,7 +72,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 45 Build JUNIT Reactive layer "Item" Document ---Ongoing
+#### Lect 45 Build JUNIT Reactive layer "Item" Document ---Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/repository/ItemReactiveRepositorytest.java
@@ -83,7 +83,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 46 Build JUNIT Reactive layer Custom Read
+#### Lect 46 Build JUNIT Reactive layer Custom Read  ---Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/repository/ItemReactiveRepository.java
@@ -96,7 +96,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 47 Build JUNIT Reactive layer Save
+#### Lect 47 Build JUNIT Reactive layer Save ---Done
 
 ```
 
@@ -108,7 +108,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 48 Build JUNIT Reactive layer Update
+#### Lect 48 Build JUNIT Reactive layer Update ---Done
 
 ```
 
@@ -120,7 +120,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 
 -----------------
 
-#### Lect 49 Build JUNIT Reactive layer Delete
+#### Lect 49 Build JUNIT Reactive layer Delete ---Done
 
 ```
 
@@ -136,7 +136,7 @@ to do: Delete direct by it
 
 -----------------
 
-#### Lect 50 Build Artifact 
+#### Lect 50 Build Artifact  ---Done
 
 ```
 
@@ -146,5 +146,10 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 add 
     test {
     
-gradle>build
+gradle>build double click
+
+https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/repository/ItemReactiveRepositorytest.java
+    @DirtiesContext
+    
+    Add in all test
 

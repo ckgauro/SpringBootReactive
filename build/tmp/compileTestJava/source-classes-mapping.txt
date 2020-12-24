@@ -11,12 +11,12 @@ com/learnreactspring/LearnReactSpringApplicationTests.java
  com.learnreactspring.LearnReactSpringApplicationTests
 com/learnreactspring/fluxandmonoplayground/CustomException.java
  com.learnreactspring.fluxandmonoplayground.CustomException
-com/learnreactspring/controller/FluxAndMonoControllerTest.java
- com.learnreactspring.controller.FluxAndMonoControllerTest
-com/learnreactspring/repository/ItemReactiveRepositoryTest.java
- com.learnreactspring.repository.ItemReactiveRepositoryTest
-com/learnreactspring/handler/SampleHandlerFunctionTest.java
- com.learnreactspring.handler.SampleHandlerFunctionTest
+com/learnreactspring/fluxandmonoplayground/FluxAndMonoTest.java
+ com.learnreactspring.fluxandmonoplayground.FluxAndMonoTest
+com/learnreactspring/fluxandmonoplayground/FluxAndMonoErrorTest.java
+ com.learnreactspring.fluxandmonoplayground.FluxAndMonoErrorTest
+com/learnreactspring/fluxandmonoplayground/EventLoopTest.java
+ com.learnreactspring.fluxandmonoplayground.EventLoopTest
 com/learnreactspring/fluxandmonoplayground/FluxAndMonoFilterTest.java
  com.learnreactspring.fluxandmonoplayground.FluxAndMonoFilterTest
 com/learnreactspring/fluxandmonoplayground/FluxAndMonoFactoryTest.java
@@ -25,9 +25,9 @@ com/learnreactspring/fluxandmonoplayground/FluxAndMonoCombineTest.java
  com.learnreactspring.fluxandmonoplayground.FluxAndMonoCombineTest
 com/learnreactspring/fluxandmonoplayground/FluxAndMonoWithTimeTest.java
  com.learnreactspring.fluxandmonoplayground.FluxAndMonoWithTimeTest
-com/learnreactspring/fluxandmonoplayground/FluxAndMonoTest.java
- com.learnreactspring.fluxandmonoplayground.FluxAndMonoTest
-com/learnreactspring/fluxandmonoplayground/EventLoopTest.java
- com.learnreactspring.fluxandmonoplayground.EventLoopTest
-com/learnreactspring/fluxandmonoplayground/FluxAndMonoErrorTest.java
- com.learnreactspring.fluxandmonoplayground.FluxAndMonoErrorTest
+com/learnreactspring/repository/ItemReactiveRepositoryTest.java
+ com.learnreactspring.repository.ItemReactiveRepositoryTest
+com/learnreactspring/handler/SampleHandlerFunctionTest.java
+ com.learnreactspring.handler.SampleHandlerFunctionTest
+com/learnreactspring/controller/FluxAndMonoControllerTest.java
+ com.learnreactspring.controller.FluxAndMonoControllerTest

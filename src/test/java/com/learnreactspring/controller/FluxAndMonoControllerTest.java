@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 @SpringBootTest
 @AutoConfigureWebTestClient
-//@DirtiesContext
+@DirtiesContext
 class FluxAndMonoControllerTest {
     //  @Autowired
     //  WebTestClient webTestClient;
