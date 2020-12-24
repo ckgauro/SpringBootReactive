@@ -6,18 +6,18 @@ com/learnreactspring/controller/ItemController.java
  com.learnreactspring.controller.ItemController
 com/learnreactspring/router/RouterFunctionConfig.java
  com.learnreactspring.router.RouterFunctionConfig
-com/learnreactspring/document/Item.java
- com.learnreactspring.document.Item
- com.learnreactspring.document.Item$ItemBuilder
+com/learnreactspring/router/ItemsRouter.java
+ com.learnreactspring.router.ItemsRouter
 com/learnreactspring/repository/ItemReactiveRepository.java
  com.learnreactspring.repository.ItemReactiveRepository
-constants/ItemConstants.java
- constants.ItemConstants
+com/learnreactspring/handler/ItemsHandler.java
+ com.learnreactspring.handler.ItemsHandler
 com/learnreactspring/LearnReactSpringApplication.java
  com.learnreactspring.LearnReactSpringApplication
 com/learnreactspring/repository/ItemDataInitializer.java
  com.learnreactspring.repository.ItemDataInitializer
-com/learnreactspring/router/ItemsRouter.java
- com.learnreactspring.router.ItemsRouter
-com/learnreactspring/handler/ItemsHandler.java
- com.learnreactspring.handler.ItemsHandler
+constants/ItemConstants.java
+ constants.ItemConstants
+com/learnreactspring/document/Item.java
+ com.learnreactspring.document.Item
+ com.learnreactspring.document.Item$ItemBuilder
