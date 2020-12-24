@@ -1,8 +1,8 @@
-# Section 13: Reactive programming API EndPoint  ---Not Started 
+# Section 13: Reactive programming API EndPoint  ---Ongoing
 
 brew services restart mongodb
 
-#### Lect 51
+#### Lect 51  --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/constants/ItemConstants.java
 
@@ -14,7 +14,7 @@ localhost:8080/v1/items
 ```
 -----------
 
-#### Lect 52 Setup Data for the application
+#### Lect 52 Setup Data for the application  --- Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/initialize/ItemDataInitializer.java
@@ -24,7 +24,7 @@ localhost:8080/v1/items
 ```
 -----------
 
-#### Lect 53 Setup Junit for the application
+#### Lect 53 Setup Junit for the application  --Ongoing
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/controller/v1/ItemControllerTest.java
