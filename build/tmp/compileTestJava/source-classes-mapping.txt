@@ -33,3 +33,5 @@ com/learnreactspring/fluxandmonoplayground/EventLoopTest.java
  com.learnreactspring.fluxandmonoplayground.EventLoopTest
 com/learnreactspring/controller/ItemControllerTest.java
  com.learnreactspring.controller.ItemControllerTest
+com/learnreactspring/handler/ItemsHandlerTest.java
+ com.learnreactspring.handler.ItemsHandlerTest
