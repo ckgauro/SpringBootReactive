@@ -2,6 +2,7 @@ package com.learnreactspring.handler;
 
 import com.learnreactspring.document.Item;
 import com.learnreactspring.repository.ItemReactiveRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
@@ -16,6 +17,7 @@ import static org.springframework.web.reactive.function.BodyInserters.fromValue;
 /**
  * @author Chandra
  */
+@Slf4j
 @Component
 public class ItemsHandler {
     private final ItemReactiveRepository itemReactiveRepository;
@@ -73,6 +75,7 @@ public class ItemsHandler {
                 .flatMap(item -> {
                     Mono<Item> itemMono = itemReactiveRepository.findById(id)
                             .flatMap(item1 -> {
+                                log.info("====**************====updateItem  Found==");
                                 item1.setDescription(item.getDescription());
                                 item1.setPrice(item.getPrice());
                                 return itemReactiveRepository.save(item1);
@@ -80,11 +83,49 @@ public class ItemsHandler {
                     return itemMono;
                 });
 
-        return updateItem.flatMap((item -> ServerResponse.ok()
-                .contentType(MediaType.APPLICATION_JSON)
-                .body(fromValue(item))
-                .switchIfEmpty(notFound)));
+        log.info("======**************====updateItem  starts==");
+        log.info(updateItem.toString());
+        log.info("======**************====updateItem  Ends==");
+        return updateItem.flatMap(item -> {
+            log.info("======**************====item  starts==");
+            log.info(item.toString());
+            log.info("======**************====item  Ends==");
+            return ServerResponse.ok()
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .body(fromValue(item));
+        }).switchIfEmpty(notFound);
     }
 
+//    public Mono<ServerResponse> updateItem(ServerRequest serverRequest) {
+//
+//        String id = serverRequest.pathVariable("id");
+//
+//        Mono<Item> updatedItem = serverRequest.bodyToMono(Item.class)
+//                .flatMap((item) -> {
+//
+//                    Mono<Item> itemMono = itemReactiveRepository.findById(id)
+//                            .flatMap(currentItem -> {
+//                                currentItem.setDescription(item.getDescription());
+//                                currentItem.setPrice(item.getPrice());
+//                                return itemReactiveRepository.save(currentItem);
+//
+//                            });
+//                    return itemMono;
+//                });
+//
+//        return updatedItem.flatMap(item ->
+//                ServerResponse.ok()
+//                        .contentType(MediaType.APPLICATION_JSON)
+//                        .body(fromValue(item)))
+//                .switchIfEmpty(notFound);
+//
+//
+//    }
+
+
+    public Mono<ServerResponse> itemsEx(ServerRequest serverRequest) {
+
+        throw new RuntimeException("RuntimeException Occurred");
+    }
 
 }

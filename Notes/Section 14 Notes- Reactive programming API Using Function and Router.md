@@ -1,4 +1,4 @@
-# Section 14: Reactive programming API Using Function and Router  --- Ongoing
+# Section 14: Reactive programming API Using Function and Router   --Done
 
 #### Lect 60 & 61  --Done
 ```
@@ -15,7 +15,7 @@ localhost:8080/v1/fun/items
 
 ```
 
-#### Lect 62   --Ongoing
+#### Lect 62   --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/handler/ItemHandlerTest.java
       public void getAllItems(){
@@ -28,7 +28,7 @@ java.lamg.assertionError: Response header <Click to see difference>
 
 ```
 
-#### Assignment 1
+#### Assignment 1   --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/controller/v1/ItemControllerTest.java
     public void getAllItems_approach2(){
@@ -41,7 +41,7 @@ java.lamg.assertionError: Response header <Click to see difference>
 ```
 -----------
 
-#### Lect 63
+#### Lect 63   --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/router/ItemsRouter.java
      public RouterFunction<ServerResponse> itemsRoute(ItemsHandler itemsHandler){
@@ -58,14 +58,14 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ```
 -----------
 
-#### Lect 64
+#### Lect 64   --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/handler/ItemsHandler.java
   public Mono<ServerResponse> createItem(ServerRequest serverRequest) {
   
 ```
 
-#### Assignment 2
+#### Assignment 2   --Done
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/handler/ItemHandlerTest.java
     @Test
@@ -87,7 +87,7 @@ public void testCreateItem() {
  
  ```
  ------------
-#### Lect 65
+#### Lect 65  --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/handler/ItemsHandler.java
       public Mono<ServerResponse> deleteItem(ServerRequest serverRequest) {
@@ -96,7 +96,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ---------
 
 
-#### Assignment 3
+#### Assignment 3  --Done
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/handler/ItemHandlerTest.java
 
@@ -113,7 +113,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
     
   ```
  ------------
-#### Lect 66
+#### Lect 66  --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/handler/ItemsHandler.java
     public Mono<ServerResponse> updateItem(ServerRequest serverRequest) {
@@ -125,7 +125,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 ---------
 
 
-#### Assignment 4
+#### Assignment 4  --Done
 ```  
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/handler/ItemHandlerTest.java
 

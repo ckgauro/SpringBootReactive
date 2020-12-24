@@ -31,8 +31,14 @@ public class ItemsRouter {
                 .andRoute(DELETE(ITEM_FUNCTIONAL_END_POINT_V1 + "/{id}")
                         .and(accept(APPLICATION_JSON)), itemsHandler::deleteItem)
                 .andRoute(PUT(ITEM_FUNCTIONAL_END_POINT_V1 + "/{id}")
-                        .and(accept(APPLICATION_JSON)), itemsHandler::updateItem)
-                ;
+                        .and(accept(APPLICATION_JSON)), itemsHandler::updateItem);
+    }
+    @Bean
+    public RouterFunction<ServerResponse> errorRoute(ItemsHandler itemsHandler){
+        return RouterFunctions
+                .route(GET("/fun/runtimeexception").and(accept(APPLICATION_JSON))
+                        ,itemsHandler::itemsEx);
+
     }
 
 }
