@@ -1,6 +1,6 @@
 # Section 15: Build Non Blocking Client using WebClient  ---Ongoing
 
-#### Lect 67 create new Project
+#### Lect 67 create new Project  --Done
 ```
 Create new project Client
 
