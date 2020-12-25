@@ -78,6 +78,7 @@ public class ItemClientController {
                 .log("Deleted Item is :" + id);
     }
 
+
     @GetMapping("/client/retrieve/error")
     public Flux<Item> errorRetrieve() {
         return webClient.get()

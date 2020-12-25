@@ -1,4 +1,4 @@
-# Section 18: Build Non Blocking Client using WebClient-Exception Handling  ---Ongoing
+# Section 18: Build Non Blocking Client using WebClient-Exception Handling --Done
 
 #### Lect 79 Handling Errors in WebClient -retive()  --Done
 ```
@@ -14,7 +14,7 @@ curl localhost:8081/client/retrieve/error
 -------------------------
 
 
-#### Lect 80 Handling Errors in WebClient -retive()
+#### Lect 80 Handling Errors in WebClient -retive()--Done
  
 ```
 
