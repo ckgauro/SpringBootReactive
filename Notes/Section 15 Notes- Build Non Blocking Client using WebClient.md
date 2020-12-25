@@ -1,4 +1,4 @@
-# Section 15: Build Non Blocking Client using WebClient  ---Ongoing
+# Section 15: Build Non Blocking Client using WebClient  --Done
 
 #### Lect 67 create new Project  --Done
 ```
@@ -15,7 +15,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/item-client/
 ```
 ------------
 
-#### Lect 67 create new Project
+#### Lect 67 create new Project  --Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/item-client/src/main/java/com/learnreactivespring/controller/ItemClientController.java
     public Flux<Item> getAllItemsUsingRetrieve(){
@@ -31,7 +31,7 @@ curl http://localhost:8081/client/exchange
 ```
 ------------
 
-#### Lect 68 Passing path variable using webclient
+#### Lect 68 Passing path variable using webclient  --Done
 ```    
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/item-client/src/main/java/com/learnreactivespring/controller/ItemClientController.java
     public Flux<Item> getAllItemsUsingExchange(){
@@ -46,7 +46,7 @@ curl http://localhost:8081/client/exchange/singleItem
 ```
 ------------
 
-#### Lect 70 Post using webclient
+#### Lect 70 Post using webclient --Done
 ```    
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/item-client/src/main/java/com/learnreactivespring/controller/ItemClientController.java
       public Mono<Item> createItem(@RequestBody Item item){
@@ -61,7 +61,7 @@ $curl http://localhost:8081/client/retrieve
 ```
 ------------
 
-#### Lect 71 Update using webclient
+#### Lect 71 Update using webclient --Done
 ```   
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/item-client/src/main/java/com/learnreactivespring/controller/ItemClientController.java
      public Mono<Item> updateItem(@PathVariable String id,@RequestBody Item item){
@@ -74,7 +74,7 @@ $curl http://localhost:8081/client/retrieve
 ```
 ------------
 
-#### Lect 72 Update using webclient
+#### Lect 72 Update using webclient --Done
 ```   
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/item-client/src/main/java/com/learnreactivespring/controller/ItemClientController.java
      public Mono<Void> deleteItem(@PathVariable String id){
