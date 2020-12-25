@@ -1,4 +1,4 @@
-# Section 16: Handling Exception in WebFlux RestController  ---Not Started 
+# Section 16: Handling Exception in WebFlux RestController  ---Done
 
 #### Lect 73 create new Project
 ```
@@ -8,7 +8,7 @@ https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reacti
 [Run application]
 localhost:8080/v1/items/runtimeException
 
-$curl http://localhost:8080/v1/items/runtimeException
+$curl http://localhost:8081/v1/items/runtimeException
 
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/controller/v1/ItemController.java
     uncomment following code
@@ -32,7 +32,7 @@ comment following code
 ```
 ------------
 
-#### Lect 74 Handling Exceptions using @ControllerAdvice
+#### Lect 74 Handling Exceptions using @ControllerAdvice   ---Done
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/exception/ControllerExceptionHandler.java
 
@@ -44,7 +44,7 @@ $curl http://localhost:8080/v1/items/runtimeException
 ```
 ------------
 
-#### Lect 75 Handling Exceptions controller JUNIT
+#### Lect 75 Handling Exceptions controller JUNIT  ---Done
 ```
 
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/controller/v1/ItemControllerTest.java

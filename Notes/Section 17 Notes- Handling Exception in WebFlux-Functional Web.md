@@ -1,4 +1,4 @@
-# Section 17: Handling Exception in WebFlux-Functional Web  ---Not Started 
+# Section 17: Handling Exception in WebFlux-Functional Web  ---Done
 
 #### Lect 76 Default Exception Behavior -Function Web
 
@@ -16,7 +16,7 @@ curl http://localhost:8080/fun/runtimeexception
 ```
 
 ---------------------
-#### Lect 77 Default Exception Behavior -Function Web
+#### Lect 77 Default Exception Behavior -Function Web   ---Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/main/java/com/learnreactivespring/exception/FunctionalErrorWebExceptionHandler.java
@@ -30,7 +30,7 @@ curl http://localhost:8080/fun/runtimeexception
 ```
 
 ---------------------
-#### Lect 78 Default Exception Behavior JUNIT -Function Web
+#### Lect 78 Default Exception Behavior JUNIT -Function Web   ---Done
 
 ```
 https://github.com/dilipsundarraj1/Teach-ReactiveSpring/blob/master/learn-reactivespring/src/test/java/com/learnreactivespring/handler/ItemHandlerTest.java

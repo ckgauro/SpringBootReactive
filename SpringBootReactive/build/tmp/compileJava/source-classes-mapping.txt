@@ -1,17 +1,21 @@
 com/learnreactspring/handler/SampleHandlerFunction.java
  com.learnreactspring.handler.SampleHandlerFunction
+com/learnreactspring/exception/ControllerExceptionHandler.java
+ com.learnreactspring.exception.ControllerExceptionHandler
+com/learnreactspring/router/ItemsRouter.java
+ com.learnreactspring.router.ItemsRouter
+com/learnreactspring/handler/ItemsHandler.java
+ com.learnreactspring.handler.ItemsHandler
+com/learnreactspring/exception/FunctionalErrorWebExceptionHandler.java
+ com.learnreactspring.exception.FunctionalErrorWebExceptionHandler
 com/learnreactspring/controller/FluxAndMonoController.java
  com.learnreactspring.controller.FluxAndMonoController
 com/learnreactspring/controller/ItemController.java
  com.learnreactspring.controller.ItemController
 com/learnreactspring/router/RouterFunctionConfig.java
  com.learnreactspring.router.RouterFunctionConfig
-com/learnreactspring/router/ItemsRouter.java
- com.learnreactspring.router.ItemsRouter
 com/learnreactspring/repository/ItemReactiveRepository.java
  com.learnreactspring.repository.ItemReactiveRepository
-com/learnreactspring/handler/ItemsHandler.java
- com.learnreactspring.handler.ItemsHandler
 com/learnreactspring/LearnReactSpringApplication.java
  com.learnreactspring.LearnReactSpringApplication
 com/learnreactspring/repository/ItemDataInitializer.java
