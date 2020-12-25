@@ -1,6 +1,8 @@
 package com.learnreactspring.handler;
 
 import com.learnreactspring.document.Item;
+import com.learnreactspring.document.ItemCapped;
+import com.learnreactspring.repository.ItemReactiveCappedRepository;
 import com.learnreactspring.repository.ItemReactiveRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +23,8 @@ import static org.springframework.web.reactive.function.BodyInserters.fromValue;
 @Component
 public class ItemsHandler {
     private final ItemReactiveRepository itemReactiveRepository;
+    @Autowired
+    ItemReactiveCappedRepository itemReactiveCappedRepository;
 
     @Autowired
     public ItemsHandler(ItemReactiveRepository itemReactiveRepository) {
@@ -96,7 +100,7 @@ public class ItemsHandler {
         }).switchIfEmpty(notFound);
     }
 
-//    public Mono<ServerResponse> updateItem(ServerRequest serverRequest) {
+    //    public Mono<ServerResponse> updateItem(ServerRequest serverRequest) {
 //
 //        String id = serverRequest.pathVariable("id");
 //
@@ -121,7 +125,12 @@ public class ItemsHandler {
 //
 //
 //    }
+    public Mono<ServerResponse> itemsStream(ServerRequest serverRequest) {
 
+        return ServerResponse.ok()
+                .contentType(MediaType.APPLICATION_STREAM_JSON)
+                .body(itemReactiveCappedRepository.findItemsBy(), ItemCapped.class);
+    }
 
     public Mono<ServerResponse> itemsEx(ServerRequest serverRequest) {
 

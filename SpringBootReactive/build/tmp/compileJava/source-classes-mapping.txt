@@ -2,26 +2,32 @@ com/learnreactspring/handler/SampleHandlerFunction.java
  com.learnreactspring.handler.SampleHandlerFunction
 com/learnreactspring/exception/ControllerExceptionHandler.java
  com.learnreactspring.exception.ControllerExceptionHandler
-com/learnreactspring/router/ItemsRouter.java
- com.learnreactspring.router.ItemsRouter
-com/learnreactspring/handler/ItemsHandler.java
- com.learnreactspring.handler.ItemsHandler
+com/learnreactspring/initialize/ItemDataInitializer.java
+ com.learnreactspring.initialize.ItemDataInitializer
+constants/ItemConstants.java
+ constants.ItemConstants
 com/learnreactspring/exception/FunctionalErrorWebExceptionHandler.java
  com.learnreactspring.exception.FunctionalErrorWebExceptionHandler
 com/learnreactspring/controller/FluxAndMonoController.java
  com.learnreactspring.controller.FluxAndMonoController
+com/learnreactspring/document/Item.java
+ com.learnreactspring.document.Item
+ com.learnreactspring.document.Item$ItemBuilder
 com/learnreactspring/controller/ItemController.java
  com.learnreactspring.controller.ItemController
 com/learnreactspring/router/RouterFunctionConfig.java
  com.learnreactspring.router.RouterFunctionConfig
+com/learnreactspring/repository/ItemReactiveCappedRepository.java
+ com.learnreactspring.repository.ItemReactiveCappedRepository
 com/learnreactspring/repository/ItemReactiveRepository.java
  com.learnreactspring.repository.ItemReactiveRepository
 com/learnreactspring/LearnReactSpringApplication.java
  com.learnreactspring.LearnReactSpringApplication
-com/learnreactspring/repository/ItemDataInitializer.java
- com.learnreactspring.repository.ItemDataInitializer
-constants/ItemConstants.java
- constants.ItemConstants
-com/learnreactspring/document/Item.java
- com.learnreactspring.document.Item
- com.learnreactspring.document.Item$ItemBuilder
+com/learnreactspring/document/ItemCapped.java
+ com.learnreactspring.document.ItemCapped
+com/learnreactspring/controller/ItemStreamController.java
+ com.learnreactspring.controller.ItemStreamController
+com/learnreactspring/router/ItemsRouter.java
+ com.learnreactspring.router.ItemsRouter
+com/learnreactspring/handler/ItemsHandler.java
+ com.learnreactspring.handler.ItemsHandler
